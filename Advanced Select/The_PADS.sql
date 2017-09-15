@@ -1,5 +1,7 @@
+# Solution
+
 (
-SELECT
+  SELECT
    CONCAT(a.name, '(', UPPER(LEFT(a.occup, 1)), ')') as first
 FROM
     (SELECT
